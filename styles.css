@@ -16,10 +16,13 @@ a{
 header{
     width: 100%;
     height: 60px;
+    
 }
 header nav{
     display: flex;
     justify-content: flex-end;
+    font-size: 1.3rem;
+    font-weight: bold;
     
 }
 header nav .nav-section-right{
@@ -35,4 +38,17 @@ header nav .nav-section-right{
 nav .nav-section-right a{
     margin-right: 10px;
     color: #000000;
+}
+
+nav .nav-section-right .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-section-right img{
+    border-radius: 50%;
+    margin-left: 10px;
 }
